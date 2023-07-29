@@ -1,7 +1,3 @@
-# Tauri + Svelte + Typescript
+# Todoist Quick Add
 
-This template should help get you started developing with Tauri, Svelte and TypeScript in Vite.
-
-## Recommended IDE Setup
-
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer).
+This is a small app which is a wrapper around the Todoist API. Once installed, use the global hotkey `Super+Alt+Q` to bring up the UI to add a task. Just type the text and press enter to add to Inbox. For now it is not able to do parsing and advanced features.
