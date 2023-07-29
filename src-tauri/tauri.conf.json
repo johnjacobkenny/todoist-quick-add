@@ -8,7 +8,7 @@
   },
   "package": {
     "productName": "Todoist Quick Add",
-    "version": "0.0.5"
+    "version": "../package.json"
   },
   "tauri": {
     "allowlist": {
@@ -41,7 +41,7 @@
         "setCursorPosition": false,
         "setCursorVisible": false,
         "setDecorations": false,
-        "setFocus": false,
+        "setFocus": true,
         "setFullscreen": false,
         "setIcon": false,
         "setIgnoreCursorEvents": false,

@@ -12,6 +12,7 @@
   onMount(async () => {
     await register(shortCutKeyCombo, async () => {
       await appWindow.show();
+      await appWindow.setFocus();
     });
   });
 
